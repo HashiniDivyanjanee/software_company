@@ -1,7 +1,7 @@
 header {
   background-color: #131313;
-  box-shadow: #ff7700;
   padding: 10px;
+  box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
 }
 
 header img {
@@ -24,11 +24,16 @@ header a:hover {
   text-decoration-thickness: 3px;
 }
 
-.icon:hover {
-    color: #ff7700;
-    
+.nav ul {
+  list-style-type: none;
 }
 
-.icon a{
-    color: #fff;
+.icon ul {
+  color: #fff;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.icon li:hover {
+  color: #ff7700;
 }
