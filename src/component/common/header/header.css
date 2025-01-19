@@ -1,0 +1,34 @@
+header {
+  background-color: #131313;
+  box-shadow: #ff7700;
+  padding: 10px;
+}
+
+header img {
+  width: 50px;
+}
+
+header a {
+  color: #fff;
+  font-weight: 600;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  float: left;
+}
+
+header a:hover {
+  color: #ff7700;
+  text-decoration: underline;
+  text-underline-offset: 25px;
+  text-decoration-thickness: 3px;
+}
+
+.icon:hover {
+    color: #ff7700;
+    
+}
+
+.icon a{
+    color: #fff;
+}
