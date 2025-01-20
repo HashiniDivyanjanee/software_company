@@ -1,0 +1,71 @@
+.hero {
+  background-image: url("../../image/hero/banner3.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  height: 90vh;
+}
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  /* text-align: left; */
+}
+
+.banner h2 {
+  margin: 0;
+  font-family: baloo;
+  font-size: 65px;
+  color: #ff7700;
+  /* text-align: left; */
+  /* border: 1px dotted #fff; 
+  padding: 0 35px; */
+}
+
+h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 90px;
+  /* text-align: left; */
+}
+
+h1::before {
+  content: "WEBSITE DEVELOPMENT";
+  font-style: 600%;
+  animation: animate 12s infinite;
+}
+
+@keyframes animate {
+  0% {
+    font-style: 600%;
+    opacity: 1;
+  }
+  25% {
+    font-style: 570%;
+    opacity: 0;
+  }
+  50% {
+    font-style: 600%;
+    opacity: 1;
+  }
+  65% {
+    font-style: 570%;
+    opacity: 0;
+  }
+  80% {
+    font-style: 600%;
+    opacity: 0;
+    content: "MOBILE APP DEVELOPMENT";
+  }
+  90% {
+    font-style: 570%;
+    opacity: 0;
+  }
+  100% {
+    font-style: 600%;
+    opacity: 1;
+    content: "SEARCH ENGINE OPTIMIZATION";
+  }
+}
