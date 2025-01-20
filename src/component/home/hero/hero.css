@@ -69,3 +69,20 @@ h1::before {
     content: "SEARCH ENGINE OPTIMIZATION";
   }
 }
+
+button{
+    color: #fff;
+    font-weight: 700;
+    background-color: #ff7700;
+    padding: 15px 35px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+}
+
+button:hover{
+    color: #ff7700;;
+    background-color: #fff;
+    font-weight: 700;
+}
