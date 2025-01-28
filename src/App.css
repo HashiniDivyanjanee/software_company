@@ -54,6 +54,10 @@ body {
   margin: auto;
 }
 
+.background{
+  background-color: #D9D9D9;
+}
+
 .flex {
   align-items: center;
   justify-content: space-between;
@@ -70,4 +74,15 @@ body {
 .heading h2 {
   color: #282c34;
   font-size: 35px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
+  padding-bottom: 15px;
+}
+
+.flex{
+  display: flex;
+  /* grid-template-columns: auto auto auto auto;
+  grid-column-gap: 40px; */
+  flex-wrap: wrap;
 }

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./header.css";
 import logoimage from "../../image/logo.png";
-import { navi } from '../data/data';
+import { navi } from '../../data/data';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
