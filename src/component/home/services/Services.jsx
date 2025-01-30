@@ -6,10 +6,10 @@ const Services = () => {
   return (
     <>
       <section className="service backgrount">
-        <div className="container">
+        <div className="">
           <Heading
             title="SERVICES"
-            subtitle="We provide the best services for our customers"
+            subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Ut enim ad minim veniam."
           />
           <ServiceCard />
         </div>
