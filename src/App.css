@@ -78,7 +78,7 @@ body {
   padding-bottom: 22px;
 }
 
-
+/* Flex */
 .flex {
   display: flex;
   justify-content: center;
